@@ -1,0 +1,334 @@
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #1e1e30;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: 31.1%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: #808080;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,.close:focus {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.modal-body{
+    padding: 2px 16px;
+}
+
+input[type=text] {
+    width: 450px;
+    box-sizing: border-box;
+    border: 2px solid #1e1e30;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #1e1e30;
+    padding: 12px 20px 12px 20px;
+}
+
+form {
+    margin-top: 50px;
+    margin-left: 400px;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: gray;
+}
+
+#p1{
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 15px;
+    color: #BDBDBD;
+}
+
+#p2{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color:  #4c75f2;
+}
+
+.sidenav {
+    width: 130px;
+    position: fixed;
+    background-color: #1e1e30;
+    padding: 70px 0;
+}
+
+.sidenav a {
+    padding: 30px 12px 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    color: gray;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #4c75f2;
+}
+
+.main {
+    margin-left: 140px; 
+    font-size: 28px;
+    padding: 15px 10px;
+}
+
+.main ::placeholder { 
+    color:rgba(65, 69, 82); 
+}
+
+#about {
+    font-size : 25px;
+    border-radius : 10px;
+    color : gray;
+    padding: 10px;
+    float: left;
+}
+
+#about:hover {
+    color: #4c75f2;
+}
+
+#search {
+    float: left;
+    height: 15px;
+}
+
+#up{
+    margin-left: 150px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 200px; 
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    margin-left: 30%;
+    margin-right: 18%;
+    text-align: center;
+    font-size: small;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 5px;
+    text-align: center;
+    margin-left: 30%;
+}
+
+td,th{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+th {
+    background-color: #1E1E30;
+    cursor: pointer;
+}
+
+tr:nth-child(even) {
+    background-color: #6C757D10;
+}
+
+tr:nth-child(even) {
+    background-color: #1E1E30;
+}
+
+#time {
+    color: gray;
+}
+
+#top_p{
+    font-size: 15px;
+}
+
+.inline{
+    display: inline;
+}
+
+button{
+    font-size: 20px;
+    background-color: #161625;
+    border: none;
+    color: gray;
+}
+
+#silent{
+    visibility: hidden;
+}
+
+#larger{
+    font-size: 25px;
+}
+
+#smaller{
+    font-size: 15px;
+}
+
+#red:hover{
+    background-color: rgba(255,7,58,0.1);
+    border-radius: 10px;
+}
+#blue:hover{
+    background-color: rgba(0,123,255,0.1);
+    border-radius: 10px;
+}
+#green:hover{
+    background-color: rgba(40,167,69,0.1);
+    border-radius: 10px;
+}
+#gray:hover{
+    background-color: rgba(108,117,125,0.1);
+    border-radius: 10px;
+}
+
+footer a{
+    margin-left: 8px;
+    padding: 4px;
+}
+
+footer {
+    margin-bottom: 50px;
+}
+
+
+
+#hide{
+    visibility: hidden;
+    font-size: 0px;
+    margin-left: 38%;
+    margin-right : 25.8%;
+}
+
+.small_p{
+    color: #6C757D99;
+    margin-bottom: 3px;
+    }
+
+.large_p{
+    color: #6C757D;
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+
+.border{
+    background-color: #6C757D10;
+    border-radius: 6px;
+    padding: 0px 0px 1px 6px;
+}
+
+#india{
+    font-size: 24px;
+    color: #E23028;
+    padding: 4px;
+    margin-bottom: 0%;
+}
+
+#india_p{
+    font-size: 12px;
+    color: #6C757D;  
+    margin: 8px 0px 0px;
+}
+
+.india_r{
+    font-size: 12px;
+    color: #9673B9BB;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#india_rb{
+    font-size: 18px;
+    color: #9673B9;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#symptoms{
+    font-size: large;
+}
+
+#s{
+    margin: 10px;
+}
+
+#calc{
+    margin-left: 51.4%; 
+    background-color: #1E1E30;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 30px;
+}
+
+.pad{
+    margin: 8px;
+}
