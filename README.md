@@ -1,4 +1,4 @@
 # Web-Development
 Covid 19 Website which shows hospitals according to the location entered.
-The Homepage displays the number of cases and also the risk according to the symptoms.
+The Homepage displays the number of active,recovered and deceased cases as well as the number of cases statewise.
 This website also contains options to add and edit hospitals.
